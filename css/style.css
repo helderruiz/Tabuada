@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #293462;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #FF4949;
+    text-align: center;
+    text-shadow: 5px 3px 2px rgba(0, 0, 0, 0.649);
+    margin: 1.5rem 1.5rem .6rem;
+}
+
+form {
+    background: #FF8D29;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+    width: 90%;
+}
+
+label {
+    font-weight: bold;
+}
+
+.input__numero {
+    border: 2px solid rgb(2, 31, 254);
+    border-radius: 8px;
+    height: 30px;
+    width: 50px;
+}
+.input__numero::placeholder {
+    color: rgb(38, 3, 120);
+    font-family: 'Lato', sans-serif;
+    font-size: .6rem;
+    text-align: center;
+}
+
+.input__botao {
+    background: #FF4949;
+    border: 2px solid rgb(2, 31, 254);
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+select {
+    border: 2px solid rgb(83, 5, 250);
+    margin-top: .8rem;
+    width: 50%;
+}
+
+footer {
+    color: #FF4949;
+    margin-top: 4rem;
+    text-align: center;
+}
+footer a {
+    color: #00ff4c;
+}
+
+footer {
+    background: url(../img/github.svg);
+    background-repeat: no-repeat;
+    background-position: 80px;
+}
+
