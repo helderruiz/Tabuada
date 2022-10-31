@@ -55,22 +55,24 @@ label {
     padding: 5px 8px;
 }
 
-select {
+.resultado__tabuada {
+    background: #fff;
     border: 2px solid rgb(83, 5, 250);
     border-radius: 5px;
-    margin-top: .8rem;
-    width: 32%;
+    margin: 15px auto;
+    width: 40%;
 }
 
 option {
     color: #d50000;
     font-weight: bold;
-    margin: 0 1rem;
+    text-align: center;
+    margin: 0 auto;
 }
 
 footer {
     color: #FF4949;
-    margin-top: 4rem;
+    margin-top: 1.6rem;
     text-align: center;
 }
 footer a {
