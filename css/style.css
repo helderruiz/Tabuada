@@ -31,11 +31,14 @@ label {
 }
 
 .input__numero {
+    color: #F806CC;
     border: 2px solid rgb(2, 31, 254);
     border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
     height: 30px;
     width: 50px;
-    text-align: center;
 }
 .input__numero::placeholder {
     color: rgb(38, 3, 120);
@@ -56,14 +59,13 @@ select {
     border: 2px solid rgb(83, 5, 250);
     border-radius: 5px;
     margin-top: .8rem;
-    width: 50%;
+    width: 32%;
 }
 
 option {
     color: #d50000;
     font-weight: bold;
-    text-align: left;
-    margin-left: 3rem;
+    margin: 0 1rem;
 }
 
 footer {
