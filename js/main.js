@@ -11,9 +11,11 @@ function clicar() {
         const valor = Number(numero.value)//convertendo o numero string em numero
         select.innerHTML = ''
         for (let c=1; c<=10; c++) {
-            const item = document.createElement('option')
-            item.text = `${valor} x ${c} = ${valor*c}`
+            const item = document.createElement('div')
+            item.innerHTML = `<strong>${valor} x ${c} = ${valor*c}</strong>`
             select.appendChild(item)
+            
+            console.log(c)
         }
     }
         
