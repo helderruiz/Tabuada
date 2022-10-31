@@ -12,7 +12,7 @@ function clicar() {
         select.innerHTML = ''
         for (let c=1; c<=10; c++) {
             const item = document.createElement('div')
-            item.innerHTML = `<strong>${valor} x ${c} = ${valor*c}</strong>`
+            item.innerHTML = `<strong style="font-size: 1.7rem;">${valor} x ${c} = ${valor*c}</strong>`
             select.appendChild(item)
             
             console.log(c)
