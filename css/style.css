@@ -88,10 +88,3 @@ footer {
 footer a {
     color: #00ff4c;
 }
-
-footer {
-    background: url(../img/github.svg);
-    background-repeat: no-repeat;
-    background-position: 80px;
-}
-
